@@ -26,3 +26,9 @@ op = model_nb.predict([ip])
 if st.button('Predict'): # st.button will create a button with name Predict
   st.title(op[0]) # the output will be displayed as a title
   st.balloons()
+
+    
+    
+    
+    
+        
