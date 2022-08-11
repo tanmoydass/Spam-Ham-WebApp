@@ -1,23 +1,6 @@
 import streamlit as st
 import joblib
-
-#load the joblib model
-model_nb = joblib.load("spam-ham")
-def add_bg_from_url():
-    st.markdown(
-         f"""
-         <style>
-         .stApp {{
-             background-image: url("https://cdn.pixabay.com/photo/2015/11/08/17/10/banner-1033936_1280.jpg");
-             background-attachment: fixed;
-             background-size: cover
-         }}
-         </style>
-         """,
-         unsafe_allow_html=True
-     )
-
-add_bg_from_url() 
+ 
 st.header("Hey, Welcome to Spam Detector")
 st.subheader("Tanmoy Das")
 st.title('SPAM-HAM CLASSIFIER')#creates a title in web app
