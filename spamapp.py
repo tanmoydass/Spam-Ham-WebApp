@@ -30,5 +30,4 @@ if st.button('Predict'): # st.button will create a button with name Predict
     
     
     
-    
-        
+  
