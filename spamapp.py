@@ -1,5 +1,6 @@
 import streamlit as st
 import joblib
+model_nb = joblib.load('spam-ham')
  
 st.header("Hey, Welcome to Spam Detector")
 st.subheader("Tanmoy Das")
